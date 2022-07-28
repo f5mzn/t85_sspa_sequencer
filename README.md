@@ -1,8 +1,8 @@
 # t85_sspa_sequencer
-SSPA Sequencer for the attiny85 microcontroller (part of a protection board projet)
+SSPA Sequencer for the attiny85 microcontroller (part of a protection board projet).
 
 Project is pure assembly in order to maximize response time and accuracy.
-This is why this ino file is empty: all the asm code is in t85_sspa_sequencer.S
+This is why this ino file is empty: all the asm code is in `t85_sspa_sequencer.S`.
 
 * Input:
   - PB3: PTT (tx to ground).
